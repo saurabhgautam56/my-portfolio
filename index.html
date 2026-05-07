@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+  content="Saurabh Gautam Portfolio - Frontend Developer, Entry-Level Software Developer & Problem Solver">
+  <meta name="keywords"
+  content="Saurabh Gautam, Portfolio, Frontend Developer, React Developer, Java Programmer">
+  <meta name="author"
+  content="Saurabh Gautam">
+  <title>Saurabh Gautam Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="assets/profile.png">
+</head>
+<body>
+<div id="progressbar"></div>
+<nav>
+  <div class="logo">Saurabh Gautam</div>
+
+  <ul class="nav-links" id="navLinks">
+    <!-- <li><a href="#about">About</a></li> -->
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#profiles">Profiles</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="menu-icon" id="menuIcon">
+    <div></div><div></div><div></div>
+  </div>
+
+  <div class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i>
+  </div>
+</nav>
+
+<div class="overlay" id="overlay"></div>
+
+<section id="about" class="profile-section">
+
+  <div class="profile-container">
+
+    <div class="profile-left">
+      <img
+        src="assets/profile.png"
+        alt="Saurabh Gautam"
+        class="profile-img"
+      >
+    </div>
+
+    <div class="profile-right">
+      <span class="profile-tag">
+        Frontend Developer 
+      </span>
+
+      <h1>
+        Hi, I'm <span>Saurabh Gautam</span>
+      </h1>
+
+      <p class="profile-title">
+        B.Tech CSE Graduate • Entry-Level Software Developer • Network Engineer
+      </p>
+
+      <div class="about-points">
+        <div class="about-item">
+          <i class="fas fa-code"></i>
+          <p>
+            Skilled in HTML, CSS, JavaScript, React & Node.js
+          </p>
+        </div>
+        <div class="about-item">
+          <i class="fas fa-database"></i>
+          <p>
+            Experience with MySQL & MongoDB databases
+          </p>
+        </div>
+        <div class="about-item">
+          <i class="fas fa-laptop-code"></i>
+          <p>
+            Built responsive projects with modern UI/UX
+          </p>
+        </div>
+        <div class="about-item">
+          <i class="fas fa-brain"></i>
+          <p>
+            Passionate about DSA & problem solving
+          </p>
+        </div>
+        <div class="about-item">
+          <i class="fas fa-network-wired"></i>
+          <p>
+            Best knowledge of networking, routing, firewalls and IP
+          </p>
+        </div>
+      </div>
+
+      <div class="profile-actions">
+        <a
+          href="assets/Saurabh_Gautam.pdf"
+          download
+          class="btn-primary"
+        >
+          Download Resume
+        </a>
+
+        <div class="profile-socials">
+          <a
+            href="https://github.com/saurabhgautam56"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <img src="assets/github.png" alt="GitHub">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/saurabh-gautam-508464232/"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <img src="assets/linkedin.png" alt="Linkedin">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="education">
+  <h2>🎓 Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>B.Tech in Computer Science Engineering</h3>
+        <h4>Nitra Technical Campus, Ghaziabad</h4>
+        <p><b>Branch:</b> Computer Science Engineering</p>
+        <span>2020 – 2024</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Senior Secondary (12th)</h3>
+        <h4>Jawahar Navodaya Vidyalaya, Etah</h4>
+        <p><b>Stream:</b> Science (PCM - Physics, Chemistry, Mathematics)</p>
+        <span>2018 – 2019</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Secondary (10th)</h3>
+        <h4>Jawahar Navodaya Vidyalaya, Etah</h4>
+        <span>2016 – 2017</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills">
+  <h2>💡 Skills</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card" data-level="high">
+      <div class="glow"></div>
+      <div class="circle" data-percent="70">
+        <span>70%</span>
+      </div>
+      <h3>Frontend Development</h3>
+      <small>Strong</small>
+      <p>React, HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="skill-card" data-level="low">
+      <div class="glow"></div>  
+      <div class="circle" data-percent="60">
+        <span>50%</span>
+      </div>
+      <h3>Backend Development</h3>
+      <small>Intermediate</small>
+      <p>Node.js, Express</p>
+    </div>
+
+    <div class="skill-card" data-level="high">
+      <div class="glow"></div>  
+      <div class="circle" data-percent="65">
+        <span>65%</span>
+      </div>
+      <h3>Programming</h3>
+      <small>Intermediate</small>
+      <p>Java, Python</p>
+    </div>
+
+    <div class="skill-card" data-level="mid">
+      <div class="glow"></div>  
+      <div class="circle" data-percent="70">
+        <span>70%</span>
+      </div>
+      <h3>Problem Solving</h3>
+      <small>Intermediate</small>
+      <p>Data Structures and Algorithem</p>
+    </div>
+
+    <div class="skill-card" data-level="mid">
+      <div class="glow"></div>  
+      <div class="circle" data-percent="60">
+        <span>60%</span>
+      </div>
+      <h3>Databases</h3>
+      <small>Beginner</small>
+      <p>MongoDB, MySQL</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2>🚀 Projects</h2>
+
+  <div class="filter-wrapper">
+    <div class="filter-buttons" id="filterButtons">
+    
+      <button class="filter-btn active" data-filter="all">
+        <i class="fas fa-layer-group"></i> All
+      </button>
+      <button class="filter-btn" data-filter="react">
+        <i class="fab fa-react"></i> React
+      </button>
+      <button class="filter-btn" data-filter="js">
+        <i class="fab fa-js"></i> JavaScript
+      </button>
+      <button class="filter-btn" data-filter="fullstack">
+        <i class="fas fa-server"></i> Full Stack
+      </button>
+      <span class="filter-indicator"></span>
+
+    </div>
+  </div>
+
+  <div class="projects-grid">
+
+    <div class="card project-item" data-category="react">
+      <div class="project-img">
+        <img src="assets/music-player.png" alt="Music Player">
+      </div>
+      <div class="project-content">
+        <span class="tag">React</span>
+        <h3>🎵 Music Player</h3>
+        <p>Responsive music player with playlist, controls, and smooth UI animations.</p>
+        <!-- <div class="project-meta">
+          ⭐ <span class="stars" data-repo="saurabhgautam56/my-music-player">0</span>
+        </div> -->
+        <div class="project-links">
+          <a href="https://saurabh-music-player.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://github.com/saurabhgautam56/music-player-react" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card project-item" data-category="js">
+      <div class="project-img">
+        <img src="assets/chatbot.png" alt="Chatbot">
+      </div>
+      <div class="project-content">
+        <span class="tag js">JavaScript</span>
+        <h3>🤖 Chatbot</h3>
+        <p>Interactive chatbot with dynamic responses and animations.</p>
+        <!-- <div class="project-meta">
+          ⭐ <span class="stars" data-repo="saurabhgautam56/chatbot-project">0</span>
+        </div> -->
+        <div class="project-links">
+          <a href="https://saurabhgautam56.github.io/chatbot-project/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://github.com/saurabhgautam56/chatbot-project" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card project-item" data-category="fullstack">
+      <div class="project-img">
+        <img src="assets/ecommerce.png" alt="Ecommerce">
+      </div>
+      <div class="project-content">
+        <span class="tag fullstack">Full Stack</span>
+        <h3>🛒 E-commerce App</h3>
+        <p>Shopping app with cart, checkout and full product flow system.</p>
+        <!-- <div class="project-meta">
+          ⭐ <span class="stars" data-repo="saurabhgautam56/Ecommerce">0</span>
+        </div> -->
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://github.com/saurabhgautam56/Ecommerce" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>🏆 Certifications</h2>
+  <div class="cert-grid">
+    
+    <div class="cert-card">
+      <div class="cert-top">
+        <div class="cert-icon-box">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <span class="cert-badge">
+          Verified
+        </span>
+      </div>
+      <div class="cert-content">
+        <h3>Web Development</h3>
+        <p>
+          HTML, CSS, JavaScript, React,
+          Bootstrap, DBMS, PHP
+        </p>
+        <span>
+          Issued by Internshala
+        </span>
+        <small>
+          Issued • 2022
+        </small>
+        <div class="cert-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+        </div>
+      </div>
+      <a
+        href="assets/certificates/webdevelopment.pdf"
+        target="_blank"
+        class="cert-btn"
+      >
+        <i class="fas fa-eye"></i>
+        View Certificate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-top">
+        <div class="cert-icon-box">
+          <i class="fab fa-java"></i>
+        </div>
+        <span class="cert-badge">
+          Verified
+        </span>
+      </div>
+      <div class="cert-content">
+        <h3>Programming (Java)</h3>
+        <p>
+          Core Java concepts,
+          OOPs, collections,
+          and problem solving
+        </p>
+        <span>
+          Issued by Udemy
+        </span>
+        <small>
+          Issued • 2023
+        </small>
+        <div class="cert-tags">
+          <span>Java</span>
+          <span>OOP</span>
+          <span>DSA</span>
+        </div>
+      </div>
+      <a
+        href="assets/certificates/java.pdf"
+        target="_blank"
+        class="cert-btn"
+      >
+        <i class="fas fa-eye"></i>
+        View Certificate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-top">
+        <div class="cert-icon-box">
+          <i class="fab fa-python"></i>
+        </div>
+        <span class="cert-badge">
+          Verified
+        </span>
+      </div>
+      <div class="cert-content">
+        <h3>Programming (Python)</h3>
+        <p>
+          Core Python concepts,
+          Functions & Modularity,
+          and problem solving
+        </p>
+        <span>
+          Issued by YBI Foundation
+        </span>
+        <small>
+          Issued • 2024
+        </small>
+        <div class="cert-tags">
+          <span>Python</span>
+          <span>Math & Pandas</span>
+          <span>DSA</span>
+        </div>
+      </div>
+      <a
+        href="assets/certificates/python.pdf"
+        target="_blank"
+        class="cert-btn"
+      >
+        <i class="fas fa-eye"></i>
+        View Certificate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-top">
+        <div class="cert-icon-box">
+          <i class="fas fa-code"></i>
+        </div>
+        <span class="cert-badge">
+          Completed
+        </span>
+      </div>
+      <div class="cert-content">
+        <h3>Data Structures & Algorithms</h3>
+        <p>
+          Strong foundation in
+          problem solving,
+          algorithms and logic building
+        </p>
+        <span>
+          GeeksforGeeks / Coding Ninjas
+        </span>
+        <small>
+          Practice • Ongoing
+        </small>
+        <div class="cert-tags">
+          <span>DSA</span>
+          <span>Java</span>
+          <span>Problem Solving</span>
+        </div>
+      </div>
+      <a
+        href="assets/certificates/dsa.pdf"
+        target="_blank"
+        class="cert-btn"
+      >
+        <i class="fas fa-eye"></i>
+        View Certificate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-top">
+        <div class="cert-icon-box">
+          <i class="fas fa-server"></i>
+        </div>
+        <span class="cert-badge">
+          Self Learning
+        </span>
+      </div>
+      <div class="cert-content">
+        <h3>Backend Development</h3>
+        <p>
+          Node.js, Express,
+          REST APIs,
+          MongoDB integration
+        </p>
+        <span>
+          Self + Online Platforms
+        </span>
+        <small>
+          Learning • 2025
+        </small>
+        <div class="cert-tags">
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+        </div>
+      </div>
+      <a
+        href="assets/certificates/backend.pdf"
+        target="_blank"
+        class="cert-btn"
+      >
+        <i class="fas fa-eye"></i>
+        View Certificate
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="profiles">
+  <h2><i class="fas fa-code"></i> Coding Dashboard</h2>
+
+  <div class="github-graph-box">
+    <img 
+      src="https://github-readme-activity-graph.vercel.app/graph?username=saurabhgautam56&theme=react-dark&hide_border=true"
+      alt="GitHub Graph"
+    />
+  </div>
+
+  <div class="dashboard-main">
+    <div class="stat-card">
+      <h4>Total Problems</h4>
+      <h2><span class="counter" data-target="230">0</span>+</h2>
+    </div>
+    <div class="stat-card">
+      <h4>GitHub Repos</h4>
+      <h2 id="repoCount">0</h2>
+    </div>
+    <div class="stat-card">
+      <h4>Languages</h4>
+      <h2>Java • JS • Python</h2>
+    </div>
+  </div>
+
+  <div class="dashboard-profiles">
+    <a href="https://leetcode.com/u/Ibvp6DYawv" target="_blank" class="platform-card" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg">
+      <div>
+        <h3>LeetCode</h3>
+        <p><span class="counter" data-target="80">0</span>+ solved</p>
+      </div>
+    </a>
+
+    <a href="https://www.naukri.com/code360/profile/Saurabhgautam" target="_blank" class="platform-card" rel="noopener noreferrer">
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-coding-ninjas-icon-svg-download-png-14550669.png?f=webp&w=256">
+      <div>
+        <h3>Coding Ninjas</h3>
+          <p><span class="counter" data-target="150">0</span>+ solved</p>
+      </div>
+    </a>
+
+    <a href="https://www.geeksforgeeks.org/profile/saurabhgaujjfn?tab=activity" target="_blank" class="platform-card" rel="noopener noreferrer">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg">
+      <div>
+        <h3>GeeksforGeeks</h3>
+        <p>DSA Practice</p>
+      </div>
+    </a>
+
+    <a href="https://github.com/saurabhgautam56" target="_blank" class="platform-card" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+      <div>
+        <h3>GitHub</h3>
+        <p>Live Data</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>📩 Contact Me</h2>
+  <form id="contactForm">
+
+    <input
+      type="text"
+      name="name"
+      placeholder="Enter your name"
+      required
+    >
+    <input
+      type="email"
+      name="email"
+      placeholder="Enter your email"
+      required
+    >
+    <input
+      type="text"
+      name="subject"
+      placeholder="Subject"
+      required
+    >
+
+    <textarea
+      name="message"
+      placeholder="Write your message..."
+      required
+    ></textarea>
+
+    <button type="submit">
+      Send Message →
+    </button>
+
+  </form>
+  <div id="formStatus"></div>
+</section>
+
+<footer>
+
+  <div class="footer-content">
+    <h3>Saurabh Gautam</h3>
+
+    <p>
+      Frontend Developer • Problem Solver • Entry-Level Software Developer • Network Engineer
+    </p>
+
+    <div class="footer-socials">
+      <a href="https://github.com/saurabhgautam56" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/saurabh-gautam-508464232/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:saurabhgautam567801@gmail.com" rel="noopener noreferrer">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
+    <span>
+      © <span id="year"></span> Saurabh Gautam. All rights reserved.
+    </span>
+
+  </div>
+</footer>
+
+<button id="topBtn" aria-label="Scroll to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
