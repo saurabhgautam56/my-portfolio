@@ -1259,7 +1259,7 @@ body.dark .cert-tags span{
 }
 
 .platform-card:nth-child(2)::before {
-  background: rgba(209, 104, 41, 0.42);
+  background: rgba(218, 99, 26, 0.219);
 }
 .platform-card:nth-child(2):hover::before {
   opacity: 1;
