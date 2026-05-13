@@ -288,6 +288,24 @@ document.addEventListener("DOMContentLoaded", () => {
     counterObserver.observe(counter);
   });
 
+  /* ================= TOTAL PROBLEMS AUTO COUNT ================= */
+
+  const problemCounters = document.querySelectorAll(
+    ".platform-card .counter"
+  );
+
+  let total = 0;
+
+  problemCounters.forEach(counter => {
+    total += Number(counter.dataset.target);
+  });
+
+  const totalProblems = document.getElementById("totalProblems");
+
+  if (totalProblems) {
+    totalProblems.dataset.target = total;
+  }
+
   /* ================= GITHUB LIVE API ================= */
 
   fetch("https://api.github.com/users/saurabhgautam56")
